@@ -11,7 +11,6 @@
 (function() {
     'use strict';
 
-    console.log(Cookies);
     document.addEventListener('keydown', function(event) {
         if (event.key == 'F5' && event.ctrlKey) {
             var currentDate = new Date();
